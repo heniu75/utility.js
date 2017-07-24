@@ -1,0 +1,33 @@
+﻿{
+    "lang": "pt-BR",
+    "date": {
+        "patterns": ["d", "d/M", "d/M/y", "d/M/y h:m", "d/M/y h:m:s", "h:m", "h:m:s"],
+        "format": {
+            "d": "dd/MM/yyyy",
+            "D": "dddd, dd 'de' MMMM 'de' yyyy",
+            "f": "dddd, dd 'de' MMMM 'de' yyyy - HH:mm",
+            "F": "dddd, dd 'de' MMMM 'de' yyyy - HH:mm:ss",
+            "g": "dd/MM/yyyy HH:mm",
+            "G": "dd/MM/yyyy HH:mm:ss",
+            "m": "dd de MMMM",
+            "s": "yyyy-MM-ddTHH:mm:ss",
+            "t": "HH:mm",
+            "T": "HH:mm:ss",
+            "y": "MMMM/yyyy",
+            "u": "UTC:yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "ampm": null
+    },
+    "number": {
+        "group": [".", 3],
+        "decimal": [",", 2],
+        "currency": ["-R$ |", "R$ |"]
+    },
+    "calendar": {
+        "dayNames": ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"],
+        "shortDayNames": ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"],
+        "monthNames": ["Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+        "shortMonthNames": ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
+        "duration": ["agora", ["um segundo", "{0} segundos"], ["um minuto", "{0} minutos"], ["uma hora", "{0} horas"], ["um dia", "dias"], ["um mes", "{0} meses"], ["um ano", "{0} anos"]]
+    }
+}
